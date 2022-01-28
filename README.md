@@ -4,7 +4,7 @@ Olá, Meu nome é Thalibe Ferreira, e aqui está algumas informações sobre mim
 - 🔭 Hoje trabalho com Desenvolvimento Full Stack
 
 - 🌱 Estudando novas tecnologias como: Node.js, Vue.js e React.js
-- 
+
 <div align="center">
   <a href="https://github.com/Thalibe">
   <img height="180em" src="https://github-readme-stats.vercel.app/api?username=Thalibe&show_icons=true&theme=onedark&include_all_commits=true&count_private=true"/>
