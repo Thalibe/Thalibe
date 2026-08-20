@@ -19,9 +19,25 @@ jobs:
           filename: metrics.svg
           token: ${{ secrets.GITHUB_TOKEN }}
           base: header, activity, community, repositories, metadata
+
+          # Tema visual
+          template: classic
+          theme: github-dark
+
+          # Gráfico de linguagens mais usadas (pizza)
           plugin_languages: yes
           plugin_languages_analysis_timeout: 15
           plugin_languages_categories: markup, programming
           plugin_languages_recent_categories: markup, programming
           plugin_languages_recent_days: 14
           plugin_languages_threshold: 0%
+          plugin_languages_colors: github
+          plugin_languages_details: bytes-size, percentage
+
+          # Calendário de contribuições (estilo "quadradinhos verdes")
+          plugin_calendar: yes
+
+          # Selo de "conquistas" do GitHub (opcional, bem visual)
+          plugin_achievements: yes
+          plugin_achievements_display: compact
+          plugin_achievements_threshold: C
